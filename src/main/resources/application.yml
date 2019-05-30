@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.1.15.152:3306/sdet_api_freamwork_staging?useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: Dongmo@26
+logging:
+  level:
+    root: warn
+    com.cosette.mystudy.dao: trace
+  pattern:
+    console: $s%n%msg
